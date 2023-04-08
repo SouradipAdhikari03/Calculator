@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500;600&family=Clicker+Script&family=Edu+NSW+ACT+Foundation:wght@500&family=Kaushan+Script&family=Mali:wght@300;400&family=Merriweather:ital,wght@1,300&family=Patua+One&family=Play:wght@700&family=Righteous&family=Rubik+Moonrocks&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(60deg, black,rgb(65, 64, 132));
+}
+.calculator{
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(149, 134, 210, 1.5);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 20px;
+    margin:20px;
+    background: transparent;
+    font-size: 35px;
+    text-align: right;
+    color: aliceblue;
+    /* box-shadow: 1px 1px 1px 1px white; */
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.equal{
+    background-color: orange;
+}
+.operator{
+    background-color: rgb(114, 46, 197);
+}
+.erase{
+    background-color: rgb(203, 175, 139);
+}
